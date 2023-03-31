@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ВЫЛЕЧИ МЕНЯ!</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="icon" type="images/ico" href="images/favicon.ico" />
+    <link rel="icon" type="images/png" href="images/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="stylesheets/jquery-3.6.3.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="stylesheets/script.js"></script>
+    <style media="screen">
+      body {
+       position: relative;
+       width: 1440px;
+       height: 1024px;
+      }
+      body::before {
+       content: '';
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       background: url(images/10.png);
+       opacity: 0;
+      }
+    </style>
+  </head>
+  <body>
+
+    <section class="view1">
+
+      <div class="onetext">
+        вылечи шарика, <br>
+        пока он не сдулся
+      </div>
+      <div class="button" id="screen1">
+        <p>НАЧАТЬ</p>
+      </div>
+      <img class="bighead" src="images/head.svg" alt="">
+      <div class="pills"></div>
+      <div class="plastir"></div>
+      <div class="nasos"></div>
+
+    </section>
+
+    <section class="view2">
+
+      <img class="dog1" src="images/dog1.png" alt="">
+      <div class="whiteeye1">
+        <div class="blackeye1"></div>
+      </div>
+      <div class="whiteeye2">
+        <div class="blackeye1"></div>
+      </div>
+      <div class="yazik">
+        <div class="blackyazik">
+        </div>
+      </div>
+      <div id="countdown"> 5:00 </div>
+      <img class="ukazatel1" src="images/ukazatel.svg" alt="">
+      <img class="ukazatel2" src="images/ukazatel2.svg" alt="">
+      <img class="ukazatel3" src="images/ukazatel3.svg" alt="">
+      <img class="ukazatel4" src="images/ukazatel4.svg" alt="">
+      <img class="mouth1" src="images/mouth1.svg" alt="">
+      <img class="mouth2" src="images/mouth2.svg" alt="">
+      <img class="mouth3" src="images/mouth3.svg" alt="">
+      <img class="mouth4" src="images/mouth4.svg" alt="">
+      <img class="mouth5" src="images/mouth5.svg" alt="">
+      <img class="stars" src="images/stars.svg" alt="">
+      <img class="brows" src="images/brows.svg" alt="">
+      <img class="treshina" src="images/treshina.svg" alt="">
+      <img class="voshkiview" src="images/voshkiview.svg" alt="">
+      <div class="pills2"></div>
+      <div class="plastir2"></div>
+      <div class="nasos2"></div>
+      <div class="molotok2"></div>
+
+    </section>
+
+    <section class="view3">
+
+      <div class="blackarea"></div>
+      <svg width="0" height="0" id="kishki">
+        <path d="M-138.983 452.905C-153.504 314.702 -27.9893 80.4347 158.136 181.253C344.262 282.071 53.9678 744.173 141.159 841.707C228.349 939.242 360.613 841.707 368.667 654.946C376.566 471.809 529.583 460.563 575.305 570.055C626.49 692.629 535.357 861.094 679.26 881.839C823.163 902.584 904.054 521.316 575.305 325.447C359.272 196.734 456.327 19.4687 624.255 94.6999C792.183 169.931 831.877 390.382 943.803 379.028C1055.73 367.673 985.381 257.569 1063.08 143.901C1140.78 30.2321 1333.03 59.3737 1333.03 235.583C1333.03 411.793 1202.24 453.77 1105.52 508.933C916.087 616.98 1026.53 922.193 1168.34 891.661C1310.16 861.129 1181.55 682.345 1303.86 606.364C1386.71 554.895 1568.47 626.357 1568.47 626.357" stroke="white" stroke-width="152" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+      <img class="arrow1" src="images/arrow1.svg" alt="">
+      <img class="proveditabletku" src="images/proveditabletku.svg" alt="">
+      <img class="arrow2" src="images/arrow2.svg" alt="">
+      <img class="nekasayac" src="images/nekasayac.svg" alt="">
+      <img class="chernoy" src="images/chernoy.svg" alt="">
+      <img class="territorii" src="images/territorii.svg" alt="">
+      <div class="move" id="mscreen3">
+        <img class="moveicon" src="images/movewhite.svg" alt="">
+        <div class="mouse1">
+          <img class="mouse2" src="images/mouse2.svg" alt="">
+        </div>
+      </div>
+      <div class="hidden1" id="square1"></div>
+      <div class="hidden1" id="square2"></div>
+      <div class="hidden1" id="square3"></div>
+      <div class="hidden1" id="square4"></div>
+      <div class="hidden1" id="square5"></div>
+      <div class="hidden1" id="square6"></div>
+      <div class="hidden1" id="square7"></div>
+      <div class="hidden1" id="square8"></div>
+      <div class="hidden1" id="square9"></div>
+      <div class="hidden1" id="square10"></div>
+      <div class="hidden1" id="square11"></div>
+      <div class="hidden1" id="square12"></div>
+      <div class="hidden1" id="square13"></div>
+      <div class="hidden1" id="square14"></div>
+      <div class="hidden1" id="square15"></div>
+      <div class="hidden1" id="square16"></div>
+      <div class="hidden1" id="square17"></div>
+      <div class="hidden1" id="square18"></div>
+      <div class="hidden1" id="square19"></div>
+      <div class="hidden1" id="square20"></div>
+      <div class="hidden1" id="square21"></div>
+      <div class="hidden1" id="square22"></div>
+      <div class="hidden1" id="square23"></div>
+      <div class="hidden1" id="square24"></div>
+      <div class="hidden1" id="square25"></div>
+      <div class="hidden1" id="square26"></div>
+      <div class="hidden1" id="square27"></div>
+      <div class="tabletka"></div>
+      <img class="finish" src="images/finish.svg" alt="">
+      <div class="hidden"></div>
+
+    </section>
+
+    <section class="view4">
+      <img class="lapa" src="images/lapa.svg" alt="">
+      <div class="kusoklapi"></div>
+      <div class="kusoklapi2"></div>
+      <div class="kusoklapi3"></div>
+      <div class="kusoklapi4"></div>
+      <div class="kusoklapi5"></div>
+      <img class="podskazka" src="images/podskazka.svg" alt="">
+      <p id="p1" >востанови</p>
+      <p id="p2">лапу</p>
+      <p id="p3">по</p>
+      <p id="p4">кусочкам</p>
+      <div class="lapa1"></div>
+      <div class="lapa2"></div>
+      <div class="lapa3"></div>
+      <div class="lapa4"></div>
+      <div class="lapa5"></div>
+      <div class="move" id="mscreen41">
+        <img class="moveicon" src="images/move.svg" alt="">
+        <div class="mouseblack">
+          <img class="mouse2" src="images/mouse4.svg" alt="">
+        </div>
+      </div>
+      <div class="rotates" id="mscreen42">
+        <img class="rotateicon" src="images/rotate.svg" alt="">
+        <div class="mouseblack">
+          <img class="mouse2" src="images/mouse4.svg" alt="">
+        </div>
+      </div>
+      <div class="button" id="screen4">
+        <p>ГОТОВО</p>
+      </div>
+
+    </section>
+
+    <section class="view5">
+
+      <div class="loop"></div>
+      <div class="volosi2"></div>
+      <img class="voshka" id="v1" src="images/voshka.svg" alt="">
+      <img class="voshka" id="v2" src="images/voshka.svg" alt="">
+      <img class="voshka" id="v3" src="images/voshka.svg" alt="">
+      <img class="voshka" id="v4" src="images/voshka.svg" alt="">
+      <img class="voshka" id="v5" src="images/voshka.svg" alt="">
+      <img class="voshka" id="v6" src="images/voshka.svg" alt="">
+      <img class="voshka" id="v7" src="images/voshka.svg" alt="">
+      <img class="voshka" id="v8" src="images/voshka.svg" alt="">
+      <img class="voshka" id="v9" src="images/voshka.svg" alt="">
+      <img class="voshka" id="v10" src="images/voshka.svg" alt="">
+      <img class="voshka" id="v11" src="images/voshka.svg" alt="">
+      <img class="voshka"  id="v12" src="images/voshka.svg" alt="">
+      <div class="button" id="screen5">
+        <p>ГОТОВО</p>
+      </div>
+      <div class="nadpic">
+        <p>уберите всех вошек <br> из шерсти</p>
+      </div>
+
+    </section>
+
+    <section class="view6">
+      <div class="lapav1"></div>
+      <div class="lapav2"></div>
+      <div class="nasoss"></div>
+      <img class="hvost" src="images/hvost.svg" alt="">
+      <img class="telo1" src="images/telo1.png" alt="">
+        <img class="obodok" src="images/obodok.svg" alt="">
+      <div class="lapav3"></div>
+      <div class="lapav4"></div>
+      <img class="golova" src="images/golova.svg" alt="">
+      <div class="whiteeye1">
+        <div class="blackeye1"></div>
+      </div>
+      <img class="nos" src="images/nos.svg" alt="">
+      <div class="whiteeye2">
+        <div class="blackeye1"></div>
+      </div>
+    </section>
+
+    <section class="view7">
+      <div class="nasoss2"></div>
+      <img class="dog3" src="images/dog3.svg" alt="">
+      <div class="button" id="screen7">
+        <p>ГОТОВО</p>
+      </div>
+    </section>
+
+    <section class="view8">
+      <div class="nasoss3"></div>
+      <img class="dog4" src="images/dog4.svg" alt="">
+    </section>
+
+    <section class="view9">
+      <div class="view9text">ПОБЕДА</div>
+      <div class="view9text2"> ВЫ ВЫЛЕЧИЛИ ШАРИКА, ТЕПЕРЬ <br> ЭТО ВАШ НОВЫЙ ПИТОМЕЦ </div>
+      <div class="button" id="screentimeover">
+        <p>ЗАНОВО</p>
+      </div>
+      <div class="hidden2"></div>
+      <img class="dog5" src="images/dog5.svg" alt="">
+    </section>
+
+    <section class="timeover">
+
+      <div class="timeovertext">КОНЕЦ</div>
+      <div class="timeovertext2">ШАРИК СДУЛСЯ, ВЫ <br> НЕ УСПЕЛИ СПАСТИ ЕГО</div>
+      <div class="button" id="screentimeover">
+        <p>ЗАНОВО</p>
+      </div>
+      <img class="sharik2" src="images/sharik2.svg" alt="">
+
+    </section>
+
+    <section class="gameover">
+      <div class="gameovertext">КОНЕЦ</div>
+      <div class="gameovertext2">ВЫ ЛОПНУЛИ ШАРИКА</div>
+      <div class="button" id="screengameover">
+        <p>ЗАНОВО</p>
+      </div>
+      <img class="kusokshara1" src="images/kusokshara1.svg" alt="">
+      <img class="kusokshara2" src="images/kusokshara2.svg" alt="">
+      <img class="kusokshara3" src="images/kusokshara3.svg" alt="">
+      <img class="kusokshara4" src="images/kusokshara4.svg" alt="">
+      <img class="kusokshara5" src="images/kusokshara5.svg" alt="">
+      <img class="kusokshara6" src="images/kusokshara6.svg" alt="">
+      <img class="kusokshara7" src="images/kusokshara7.svg" alt="">
+    </section>
+
+  </body>
+</html>
